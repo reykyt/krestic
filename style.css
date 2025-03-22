@@ -1,0 +1,69 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+body {
+    background-image: url(/vk864.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-color: rgb(44, 110, 79);
+}
+
+table {
+    border-collapse: collapse;
+
+}
+
+.modal {
+    font-size: 40px;
+    margin-bottom: 20px;
+    background-color: rgb(176, 202, 191);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    background-color: rgb(108, 108, 129);
+    margin: 3px;
+    border-radius: 10px;
+    color: white;
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.icon {
+
+    max-width: 170px;
+    max-height: 172px;
+    margin-top: 50px;
+    animation: 4s linear 0s normal none infinite running rot;
+}
+
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@media (max-width: 335px) { 
+    td {
+        width: 70px;
+        height: 70px;
+        
+    }
+}
