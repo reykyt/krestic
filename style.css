@@ -60,10 +60,25 @@ td {
         transform: rotate(360deg);
     }
 }
-@media (max-width: 335px) { 
+
+@media (max-width: 335px) {
     td {
         width: 70px;
         height: 70px;
-        
+
     }
+}
+
+.ref {
+    display: none;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.reff {
+    display: block;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
 }
